@@ -1,5 +1,5 @@
 {% set name = "ci-sdr" %}
-{% set version = "0.0.0" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ci_sdr-{{ version }}.tar.gz
-  sha256: a1387f39ccd55cce034e2c01000a0a337b3729d8a5010b42c5381d8c820fa4bb
+  sha256: 3f9d4c205b9b7c5c3239a90400b81f1f26ecb38484a46150d2677ff646a13465
 
 build:
   noarch: python
